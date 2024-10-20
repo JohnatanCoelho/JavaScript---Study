@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE | Javascript</title>
+<style>
+    body{
+        background-color: #7e05f7;
+        color: white;
+        font: normal 10pt arial;
+    }
+</style>
+</head>
+<body>
+    <H1>Olá Mundo !</H1>
+    <p>Suave mundo!</p>
+    <p>Teste de <strong>DOM</strong> em Javascript</p>
+    <div>Alo! Mundo!</div>
+
+<script>
+    var corpo = document.body;
+    var nome = window.prompt("Qual o seu nome? ")
+    var trocaNome = window.document.getElementsByTagName('H1')[0]
+    trocaNome.innerHTML = (`Seja Bem-Vindo, ${nome} !`)
+    corpo.style.background = "#1c1b1b"
+    // teste
+   
+    
+</script>
+</body>
+</html>
